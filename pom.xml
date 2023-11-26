@@ -16,6 +16,14 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	<profiles>
+		 <profile>
+                    <id>prod</id>
+                    <properties>
+                        <war.name>prod</war.name>
+                    </properties>
+        </profile>
+	</profiles>
 	<dependencies>
 		
 		<dependency>
